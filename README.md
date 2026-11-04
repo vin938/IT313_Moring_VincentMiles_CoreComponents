@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # IT313 - Lab 6: React Native Core Components
 
 **Student:** Vincent Miles Moring  
@@ -76,3 +77,6 @@ The purpose of this laboratory activity is to understand how React Native Core C
 
 **IT313 - Mobile Programming**  
 **Module 6: Introduction to React Native - Core Components**
+=======
+# IT313_Moring_VincentMiles_CoreComponents
+>>>>>>> 2734815b37af288c3acafeddfb0a71ecd50f0659
