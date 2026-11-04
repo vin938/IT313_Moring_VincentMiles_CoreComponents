@@ -1,56 +1,78 @@
-# Welcome to your Expo app 👋
+# IT313 - Lab 6: React Native Core Components
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Student:** Vincent Miles Moring  
+**Section:** BSIT-3C
+**Subject:** IT313 - Mobile Programming  
+**Laboratory Activity:** Module 6 - Introduction to React Native: Core Components
 
-## Get started
+## Project Overview
 
-1. Install dependencies
+This project demonstrates the use of React Native Core Components by creating a Student Directory Viewer and completing the activities in Module 6.
+
+The application allows users to view student profiles, search for students, and flag students who need academic advising. It also includes the ProfileCard, ModuleSearch, Pressable, and TouchableOpacity examples from the activity sheet.
+
+## Features
+
+- **Student Directory** – Displays a list of students with their profile photos and year levels.
+- **Search Function** – Allows users to search for students by name.
+- **Flag for Advising** – Allows users to flag or unflag students.
+- **Profile Card** – Displays an instructor's photo, name, and role.
+- **Module Search** – Filters module titles based on the user's input.
+- **Pressable Button** – Demonstrates a customizable button with pressed-state feedback.
+- **TouchableOpacity Button** – Demonstrates opacity-based touch feedback.
+
+## React Native Components Used
+
+- `View` – Organizes and groups screen elements.
+- `Text` – Displays text and information.
+- `Image` – Displays student and instructor profile photos.
+- `ScrollView` – Allows users to scroll through content.
+- `TextInput` – Accepts search input from users.
+- `Pressable` – Handles button presses with customizable feedback.
+- `TouchableOpacity` – Provides opacity feedback when pressed.
+- `StyleSheet` – Organizes the application's styles.
+- `useState` – Manages search queries, likes, and student flag status.
+
+## Technologies Used
+
+- React Native
+- Expo
+- TypeScript
+- Visual Studio Code
+
+## Installation and Setup
+
+1. Clone or download this repository.
+2. Open the project folder in Visual Studio Code.
+3. Open the terminal.
+4. Install the project dependencies:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+5. Start the Expo development server:
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+6. Open the application using Expo Go or an available emulator.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## How to Use
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. Open the Student Directory to view the list of students.
+2. Type a student's name in the search bar to filter the list.
+3. Press **Flag for Advising** to flag a student.
+4. Press the button again to remove the flag.
+5. Scroll down to view the ProfileCard and ModuleSearch activities.
+6. Test the Pressable and TouchableOpacity buttons.
 
-## Get a fresh project
+## Project Purpose
 
-When you're ready, run:
+The purpose of this laboratory activity is to understand how React Native Core Components work together to build a functional mobile application. It also demonstrates basic state management, user input, list rendering, and touch interactions.
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+**IT313 - Mobile Programming**  
+**Module 6: Introduction to React Native - Core Components**
